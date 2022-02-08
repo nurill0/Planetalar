@@ -7,6 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6EF0F6138A0838F65242E165 /* Pods_Planetalar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 508481AF8CEEDC4DB8763620 /* Pods_Planetalar.framework */; };
+		FB22A510279C1F8000A1B45E /* DefinitionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB22A50F279C1F8000A1B45E /* DefinitionController.swift */; };
+		FB4AEF1527AE87E8000A6919 /* 1.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FB4AEF0C27AE80F6000A6919 /* 1.m4a */; };
+		FB4AEF1627AE8819000A6919 /* 2.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FB4AEF1227AE8108000A6919 /* 2.m4a */; };
+		FB4AEF1727AE881C000A6919 /* 3.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FB4AEF1327AE8108000A6919 /* 3.m4a */; };
+		FB4AEF1827AE881F000A6919 /* 4.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FB4AEF1127AE8108000A6919 /* 4.m4a */; };
+		FB4AEF1927AE8822000A6919 /* 5.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FB4AEF1027AE8108000A6919 /* 5.m4a */; };
+		FB4AEF1A27AE8829000A6919 /* 7.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FB4AEF0D27AE8108000A6919 /* 7.m4a */; };
+		FB4AEF1B27AE882C000A6919 /* 8.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FB4AEF0F27AE8108000A6919 /* 8.m4a */; };
+		FB4AEF1C27AE882F000A6919 /* 9.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FB4AEF1427AE8108000A6919 /* 9.m4a */; };
+		FB4AEF1D27AE8832000A6919 /* 10.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FB4AEF0E27AE8108000A6919 /* 10.m4a */; };
+		FB4AEF1F27AE9EE8000A6919 /* 6.m4a in Resources */ = {isa = PBXBuildFile; fileRef = FB4AEF1E27AE9EE8000A6919 /* 6.m4a */; };
+		FB4AEF2127AEDA6D000A6919 /* UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4AEF2027AEDA6D000A6919 /* UI.swift */; };
+		FB4AEF2427AEDDEC000A6919 /* AppButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4AEF2327AEDDEC000A6919 /* AppButtons.swift */; };
+		FB4AEF2627AEDE35000A6919 /* QuizData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4AEF2527AEDE35000A6919 /* QuizData.swift */; };
+		FB4AEF2827AEE6CB000A6919 /* congratulation.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FB4AEF2727AEE6CB000A6919 /* congratulation.mp3 */; };
+		FB4AEF2A27AEE6DB000A6919 /* incorrect.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FB4AEF2927AEE6DB000A6919 /* incorrect.mp3 */; };
+		FB4AEF2C27AEE6E7000A6919 /* correct.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FB4AEF2B27AEE6E7000A6919 /* correct.mp3 */; };
+		FB4F844B27B1878B000F62E2 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4F844A27B1878B000F62E2 /* Constants.swift */; };
 		FB565F02279AB71300F9EC60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB565F01279AB71300F9EC60 /* AppDelegate.swift */; };
 		FB565F04279AB71300F9EC60 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB565F03279AB71300F9EC60 /* SceneDelegate.swift */; };
 		FB565F06279AB71300F9EC60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB565F05279AB71300F9EC60 /* ViewController.swift */; };
@@ -14,9 +33,41 @@
 		FB565F0C279AB71300F9EC60 /* Planetalar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FB565F0A279AB71300F9EC60 /* Planetalar.xcdatamodeld */; };
 		FB565F0E279AB71300F9EC60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB565F0D279AB71300F9EC60 /* Assets.xcassets */; };
 		FB565F11279AB71300F9EC60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB565F0F279AB71300F9EC60 /* LaunchScreen.storyboard */; };
+		FB565F1D279AB9EF00F9EC60 /* ChooseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB565F1C279AB9EF00F9EC60 /* ChooseController.swift */; };
+		FB565F1F279ABA3100F9EC60 /* launch.json in Resources */ = {isa = PBXBuildFile; fileRef = FB565F1E279ABA3100F9EC60 /* launch.json */; };
+		FB7AE49627A56D9500C2D89A /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB7AE49527A56D9500C2D89A /* UserDefaults.swift */; };
+		FBBA78BD279BAE94004B8A4A /* QuizController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBA78BC279BAE94004B8A4A /* QuizController.swift */; };
+		FBBA78BF279BDAC7004B8A4A /* HomeTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBA78BE279BDAC6004B8A4A /* HomeTabBarController.swift */; };
+		FBBA78C2279BDB3E004B8A4A /* FavouritesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBA78C1279BDB3E004B8A4A /* FavouritesController.swift */; };
+		FBBA78C4279BE04A004B8A4A /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBA78C3279BE04A004B8A4A /* HomeController.swift */; };
+		FBBA78C7279BF346004B8A4A /* HomeCVExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBA78C6279BF346004B8A4A /* HomeCVExtension.swift */; };
+		FBBA78C9279BF371004B8A4A /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBA78C8279BF371004B8A4A /* HomeCell.swift */; };
+		FBBA78CB279BF3D3004B8A4A /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBBA78CA279BF3D3004B8A4A /* HomeModel.swift */; };
+		FBFAD8FF27B132BC00069E40 /* InfoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBFAD8FE27B132BC00069E40 /* InfoController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		508481AF8CEEDC4DB8763620 /* Pods_Planetalar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Planetalar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		974666BED7A54FA9F02A2C33 /* Pods-Planetalar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Planetalar.release.xcconfig"; path = "Target Support Files/Pods-Planetalar/Pods-Planetalar.release.xcconfig"; sourceTree = "<group>"; };
+		990751C76CFE938329B66596 /* Pods-Planetalar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Planetalar.debug.xcconfig"; path = "Target Support Files/Pods-Planetalar/Pods-Planetalar.debug.xcconfig"; sourceTree = "<group>"; };
+		FB22A50F279C1F8000A1B45E /* DefinitionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefinitionController.swift; sourceTree = "<group>"; };
+		FB4AEF0C27AE80F6000A6919 /* 1.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.m4a; sourceTree = SOURCE_ROOT; };
+		FB4AEF0D27AE8108000A6919 /* 7.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 7.m4a; sourceTree = SOURCE_ROOT; };
+		FB4AEF0E27AE8108000A6919 /* 10.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 10.m4a; sourceTree = SOURCE_ROOT; };
+		FB4AEF0F27AE8108000A6919 /* 8.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 8.m4a; sourceTree = SOURCE_ROOT; };
+		FB4AEF1027AE8108000A6919 /* 5.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 5.m4a; sourceTree = SOURCE_ROOT; };
+		FB4AEF1127AE8108000A6919 /* 4.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 4.m4a; sourceTree = SOURCE_ROOT; };
+		FB4AEF1227AE8108000A6919 /* 2.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 2.m4a; sourceTree = SOURCE_ROOT; };
+		FB4AEF1327AE8108000A6919 /* 3.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 3.m4a; sourceTree = SOURCE_ROOT; };
+		FB4AEF1427AE8108000A6919 /* 9.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 9.m4a; sourceTree = SOURCE_ROOT; };
+		FB4AEF1E27AE9EE8000A6919 /* 6.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = 6.m4a; sourceTree = SOURCE_ROOT; };
+		FB4AEF2027AEDA6D000A6919 /* UI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI.swift; sourceTree = "<group>"; };
+		FB4AEF2327AEDDEC000A6919 /* AppButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppButtons.swift; sourceTree = "<group>"; };
+		FB4AEF2527AEDE35000A6919 /* QuizData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizData.swift; sourceTree = "<group>"; };
+		FB4AEF2727AEE6CB000A6919 /* congratulation.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = congratulation.mp3; sourceTree = SOURCE_ROOT; };
+		FB4AEF2927AEE6DB000A6919 /* incorrect.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = incorrect.mp3; sourceTree = SOURCE_ROOT; };
+		FB4AEF2B27AEE6E7000A6919 /* correct.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = correct.mp3; sourceTree = SOURCE_ROOT; };
+		FB4F844A27B1878B000F62E2 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		FB565EFE279AB71300F9EC60 /* Planetalar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Planetalar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB565F01279AB71300F9EC60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB565F03279AB71300F9EC60 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +77,17 @@
 		FB565F0D279AB71300F9EC60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB565F10279AB71300F9EC60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB565F12279AB71300F9EC60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB565F1C279AB9EF00F9EC60 /* ChooseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChooseController.swift; sourceTree = "<group>"; };
+		FB565F1E279ABA3100F9EC60 /* launch.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = launch.json; path = "Resourses/lottie files/launch.json"; sourceTree = SOURCE_ROOT; };
+		FB7AE49527A56D9500C2D89A /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		FBBA78BC279BAE94004B8A4A /* QuizController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizController.swift; sourceTree = "<group>"; };
+		FBBA78BE279BDAC6004B8A4A /* HomeTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabBarController.swift; sourceTree = "<group>"; };
+		FBBA78C1279BDB3E004B8A4A /* FavouritesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesController.swift; sourceTree = "<group>"; };
+		FBBA78C3279BE04A004B8A4A /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		FBBA78C6279BF346004B8A4A /* HomeCVExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCVExtension.swift; sourceTree = "<group>"; };
+		FBBA78C8279BF371004B8A4A /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		FBBA78CA279BF3D3004B8A4A /* HomeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		FBFAD8FE27B132BC00069E40 /* InfoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +95,69 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EF0F6138A0838F65242E165 /* Pods_Planetalar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		229B30EB15C583394E7918B4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				508481AF8CEEDC4DB8763620 /* Pods_Planetalar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4010198A3DB4B73B57309452 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				990751C76CFE938329B66596 /* Pods-Planetalar.debug.xcconfig */,
+				974666BED7A54FA9F02A2C33 /* Pods-Planetalar.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FB22A50D279C1C5E00A1B45E /* DefinitionPage */ = {
+			isa = PBXGroup;
+			children = (
+				FB22A50F279C1F8000A1B45E /* DefinitionController.swift */,
+			);
+			path = DefinitionPage;
+			sourceTree = "<group>";
+		};
+		FB22A50E279C1C7F00A1B45E /* TabbarControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FBBA78BE279BDAC6004B8A4A /* HomeTabBarController.swift */,
+			);
+			path = TabbarControllers;
+			sourceTree = "<group>";
+		};
+		FB4AEF2227AEDDD3000A6919 /* constants */ = {
+			isa = PBXGroup;
+			children = (
+				FB4AEF2327AEDDEC000A6919 /* AppButtons.swift */,
+			);
+			path = constants;
+			sourceTree = "<group>";
+		};
+		FB4F844927B1877E000F62E2 /* constants */ = {
+			isa = PBXGroup;
+			children = (
+				FB4F844A27B1878B000F62E2 /* Constants.swift */,
+			);
+			path = constants;
+			sourceTree = "<group>";
+		};
 		FB565EF5279AB71300F9EC60 = {
 			isa = PBXGroup;
 			children = (
 				FB565F00279AB71300F9EC60 /* Planetalar */,
 				FB565EFF279AB71300F9EC60 /* Products */,
+				4010198A3DB4B73B57309452 /* Pods */,
+				229B30EB15C583394E7918B4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +172,125 @@
 		FB565F00279AB71300F9EC60 /* Planetalar */ = {
 			isa = PBXGroup;
 			children = (
-				FB565F01279AB71300F9EC60 /* AppDelegate.swift */,
-				FB565F03279AB71300F9EC60 /* SceneDelegate.swift */,
-				FB565F05279AB71300F9EC60 /* ViewController.swift */,
-				FB565F07279AB71300F9EC60 /* Main.storyboard */,
+				FB4F844927B1877E000F62E2 /* constants */,
+				FBC7C128279B371400C70F3A /* LearnPage */,
+				FBC7C127279B370900C70F3A /* QuizPage */,
+				FB565F1B279AB9D900F9EC60 /* ChoosePage */,
+				FB565F1A279AB73400F9EC60 /* LaunchPage */,
+				FB565F19279AB72700F9EC60 /* app */,
+				FB565F18279AB71C00F9EC60 /* view */,
 				FB565F0D279AB71300F9EC60 /* Assets.xcassets */,
-				FB565F0F279AB71300F9EC60 /* LaunchScreen.storyboard */,
+				FB4AEF0C27AE80F6000A6919 /* 1.m4a */,
+				FB4AEF1227AE8108000A6919 /* 2.m4a */,
+				FB4AEF1327AE8108000A6919 /* 3.m4a */,
+				FB4AEF1127AE8108000A6919 /* 4.m4a */,
+				FB4AEF1027AE8108000A6919 /* 5.m4a */,
+				FB4AEF1E27AE9EE8000A6919 /* 6.m4a */,
+				FB4AEF0D27AE8108000A6919 /* 7.m4a */,
+				FB4AEF0F27AE8108000A6919 /* 8.m4a */,
+				FB4AEF1427AE8108000A6919 /* 9.m4a */,
+				FB4AEF0E27AE8108000A6919 /* 10.m4a */,
+				FB4AEF2727AEE6CB000A6919 /* congratulation.mp3 */,
+				FB4AEF2B27AEE6E7000A6919 /* correct.mp3 */,
+				FB4AEF2927AEE6DB000A6919 /* incorrect.mp3 */,
 				FB565F12279AB71300F9EC60 /* Info.plist */,
 				FB565F0A279AB71300F9EC60 /* Planetalar.xcdatamodeld */,
 			);
 			path = Planetalar;
+			sourceTree = "<group>";
+		};
+		FB565F18279AB71C00F9EC60 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				FB565F0F279AB71300F9EC60 /* LaunchScreen.storyboard */,
+				FB565F07279AB71300F9EC60 /* Main.storyboard */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		FB565F19279AB72700F9EC60 /* app */ = {
+			isa = PBXGroup;
+			children = (
+				FB565F03279AB71300F9EC60 /* SceneDelegate.swift */,
+				FB565F01279AB71300F9EC60 /* AppDelegate.swift */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		FB565F1A279AB73400F9EC60 /* LaunchPage */ = {
+			isa = PBXGroup;
+			children = (
+				FB565F1E279ABA3100F9EC60 /* launch.json */,
+				FB565F05279AB71300F9EC60 /* ViewController.swift */,
+			);
+			path = LaunchPage;
+			sourceTree = "<group>";
+		};
+		FB565F1B279AB9D900F9EC60 /* ChoosePage */ = {
+			isa = PBXGroup;
+			children = (
+				FBFAD8FC27B1329700069E40 /* InfoPage */,
+				FB565F1C279AB9EF00F9EC60 /* ChooseController.swift */,
+			);
+			path = ChoosePage;
+			sourceTree = "<group>";
+		};
+		FB7AE49327A56CFE00C2D89A /* FavouritePage */ = {
+			isa = PBXGroup;
+			children = (
+				FBBA78C1279BDB3E004B8A4A /* FavouritesController.swift */,
+			);
+			path = FavouritePage;
+			sourceTree = "<group>";
+		};
+		FB7AE49427A56D5F00C2D89A /* UserDefaults */ = {
+			isa = PBXGroup;
+			children = (
+				FB7AE49527A56D9500C2D89A /* UserDefaults.swift */,
+			);
+			path = UserDefaults;
+			sourceTree = "<group>";
+		};
+		FBBA78C5279BF30A004B8A4A /* HomeCV */ = {
+			isa = PBXGroup;
+			children = (
+				FBBA78C3279BE04A004B8A4A /* HomeController.swift */,
+				FBBA78C6279BF346004B8A4A /* HomeCVExtension.swift */,
+				FBBA78C8279BF371004B8A4A /* HomeCell.swift */,
+				FBBA78CA279BF3D3004B8A4A /* HomeModel.swift */,
+			);
+			path = HomeCV;
+			sourceTree = "<group>";
+		};
+		FBC7C127279B370900C70F3A /* QuizPage */ = {
+			isa = PBXGroup;
+			children = (
+				FBBA78BC279BAE94004B8A4A /* QuizController.swift */,
+				FB4AEF2027AEDA6D000A6919 /* UI.swift */,
+				FB4AEF2527AEDE35000A6919 /* QuizData.swift */,
+			);
+			path = QuizPage;
+			sourceTree = "<group>";
+		};
+		FBC7C128279B371400C70F3A /* LearnPage */ = {
+			isa = PBXGroup;
+			children = (
+				FB4AEF2227AEDDD3000A6919 /* constants */,
+				FB7AE49427A56D5F00C2D89A /* UserDefaults */,
+				FB7AE49327A56CFE00C2D89A /* FavouritePage */,
+				FB22A50E279C1C7F00A1B45E /* TabbarControllers */,
+				FB22A50D279C1C5E00A1B45E /* DefinitionPage */,
+				FBBA78C5279BF30A004B8A4A /* HomeCV */,
+			);
+			path = LearnPage;
+			sourceTree = "<group>";
+		};
+		FBFAD8FC27B1329700069E40 /* InfoPage */ = {
+			isa = PBXGroup;
+			children = (
+				FBFAD8FE27B132BC00069E40 /* InfoController.swift */,
+			);
+			path = InfoPage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +300,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB565F15279AB71300F9EC60 /* Build configuration list for PBXNativeTarget "Planetalar" */;
 			buildPhases = (
+				095E5684F79F92E31F6A8BC5 /* [CP] Check Pods Manifest.lock */,
 				FB565EFA279AB71300F9EC60 /* Sources */,
 				FB565EFB279AB71300F9EC60 /* Frameworks */,
 				FB565EFC279AB71300F9EC60 /* Resources */,
+				F3B90EF38432C91B3418F2F7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,23 +353,94 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB4AEF1D27AE8832000A6919 /* 10.m4a in Resources */,
+				FB4AEF1B27AE882C000A6919 /* 8.m4a in Resources */,
+				FB4AEF1A27AE8829000A6919 /* 7.m4a in Resources */,
 				FB565F11279AB71300F9EC60 /* LaunchScreen.storyboard in Resources */,
+				FB4AEF2A27AEE6DB000A6919 /* incorrect.mp3 in Resources */,
+				FB4AEF1827AE881F000A6919 /* 4.m4a in Resources */,
 				FB565F0E279AB71300F9EC60 /* Assets.xcassets in Resources */,
+				FB4AEF2C27AEE6E7000A6919 /* correct.mp3 in Resources */,
+				FB4AEF1927AE8822000A6919 /* 5.m4a in Resources */,
+				FB4AEF1F27AE9EE8000A6919 /* 6.m4a in Resources */,
+				FB4AEF1C27AE882F000A6919 /* 9.m4a in Resources */,
+				FB4AEF1527AE87E8000A6919 /* 1.m4a in Resources */,
+				FB4AEF2827AEE6CB000A6919 /* congratulation.mp3 in Resources */,
+				FB4AEF1627AE8819000A6919 /* 2.m4a in Resources */,
+				FB565F1F279ABA3100F9EC60 /* launch.json in Resources */,
+				FB4AEF1727AE881C000A6919 /* 3.m4a in Resources */,
 				FB565F09279AB71300F9EC60 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		095E5684F79F92E31F6A8BC5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Planetalar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3B90EF38432C91B3418F2F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Planetalar/Pods-Planetalar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Planetalar/Pods-Planetalar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Planetalar/Pods-Planetalar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FB565EFA279AB71300F9EC60 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB22A510279C1F8000A1B45E /* DefinitionController.swift in Sources */,
+				FB4F844B27B1878B000F62E2 /* Constants.swift in Sources */,
 				FB565F06279AB71300F9EC60 /* ViewController.swift in Sources */,
+				FBBA78C2279BDB3E004B8A4A /* FavouritesController.swift in Sources */,
 				FB565F02279AB71300F9EC60 /* AppDelegate.swift in Sources */,
+				FBBA78C9279BF371004B8A4A /* HomeCell.swift in Sources */,
+				FBBA78BF279BDAC7004B8A4A /* HomeTabBarController.swift in Sources */,
+				FBBA78BD279BAE94004B8A4A /* QuizController.swift in Sources */,
+				FBBA78C7279BF346004B8A4A /* HomeCVExtension.swift in Sources */,
+				FB4AEF2127AEDA6D000A6919 /* UI.swift in Sources */,
+				FBBA78C4279BE04A004B8A4A /* HomeController.swift in Sources */,
+				FBBA78CB279BF3D3004B8A4A /* HomeModel.swift in Sources */,
+				FBFAD8FF27B132BC00069E40 /* InfoController.swift in Sources */,
+				FB4AEF2427AEDDEC000A6919 /* AppButtons.swift in Sources */,
 				FB565F04279AB71300F9EC60 /* SceneDelegate.swift in Sources */,
 				FB565F0C279AB71300F9EC60 /* Planetalar.xcdatamodeld in Sources */,
+				FB7AE49627A56D9500C2D89A /* UserDefaults.swift in Sources */,
+				FB4AEF2627AEDE35000A6919 /* QuizData.swift in Sources */,
+				FB565F1D279AB9EF00F9EC60 /* ChooseController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,18 +584,22 @@
 		};
 		FB565F16279AB71300F9EC60 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 990751C76CFE938329B66596 /* Pods-Planetalar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RDUJ47QN57;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Planetalar/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,24 +609,28 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		FB565F17279AB71300F9EC60 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 974666BED7A54FA9F02A2C33 /* Pods-Planetalar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RDUJ47QN57;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Planetalar/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -336,7 +640,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
